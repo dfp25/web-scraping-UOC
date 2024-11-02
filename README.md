@@ -1,6 +1,22 @@
 # web-scraping-UOC
 Proyecto para la materia Tipología y ciclo de vida de los datos
 
+## Daniel Flores Pérez
+
+## Archivos que componen el repositorio
+- dataset:
+     - peliculas_finalistas_premios_goya.csv
+- source:
+     - cine_dflores_PR1.ipynb
+     - cine_dflores_PR1.py
+- LICENSE
+- README.md
+- requirements.txt
+
+## DOI Zenodo
+[DOI]([https://github.com](https://doi.org/10.5281/zenodo.14029149) "DOI Zenodo")
+
+
 # Extracción de Datos de Premios de Cine (Goya, Feroz, Forqué, CEC)
 
 Este proyecto utiliza Python y varias bibliotecas (Selenium, BeautifulSoup, Requests, Pandas, etc.) para realizar el scraping de datos sobre películas nominadas y ganadoras en cuatro premios de cine en España: los premios Goya, Feroz, Forqué y CEC. Los datos se organizan y guardan en archivos CSV.
@@ -43,7 +59,13 @@ Se extraen los títulos de películas ganadoras y nominadas en la categoría de 
 
 ### 5. Datos de Premios CEC
 
-La información de los premios CEC se obtiene desde Wikipedia, debido a que los datos en la página oficial están menos estructurados.
+La información de los premios CEC se obtiene desde Wikipedia, debido a que los datos en la página oficial están menos estructurados. La función recibe como parámetro el link a la página web de Wikepedia donde se encuentran las tablas.
+
+Ejemplo:
+
+*tablas_wiki (http:\\www.prueba.com)*
+
+Se obtienen todas las tablas que haya en la página 'prueba.com' perteneciente a la Wikipedia.
 
 ### 6. Unión de Datos
 
@@ -61,7 +83,7 @@ Se ha utilizado:
 - **Paquetes**: numpy, pandas, selenium, requests, beautifulsoup4
 - **Selenium WebDriver**: Requiere 'chromedriver' para automatizar el navegador Chrome. Ver 7. User-Agent.
 
-## Ejecución
+## Ejecución y uso
 
 1. Asegúrate de tener los paquetes necesarios.
 2. Ejecuta el script de extracción de datos.
