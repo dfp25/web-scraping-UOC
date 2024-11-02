@@ -14,7 +14,7 @@ Proyecto para la materia Tipología y ciclo de vida de los datos
 - requirements.txt
 
 ## DOI Zenodo
-[DOI](https://doi.org/10.5281/zenodo.14029149) "DOI Zenodo")
+[DOI](https://doi.org/10.5281/zenodo.14029149))
 
 
 # Extracción de Datos de Premios de Cine (Goya, Feroz, Forqué, CEC)
