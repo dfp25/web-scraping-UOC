@@ -63,7 +63,7 @@ La información de los premios CEC se obtiene desde Wikipedia, debido a que los 
 
 Ejemplo:
 
-*tablas_wiki ("http:\\www.wikipedia.org")*
+*tablas_wiki ("prueba.com")*
 
 Se obtienen todas las tablas que haya en la página 'prueba.com' perteneciente a la Wikipedia.
 
